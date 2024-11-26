@@ -23,15 +23,15 @@ The web app enhances interactivity and accessibility with:
 
 # How to Use
 ## 1. Power BI Dashboard
-Download the Power BI file from the repository.
-Open with Power BI Desktop or view online using Power BI Service.
+- Download the Power BI file from the repository.
+- Open with Power BI Desktop or view online using Power BI Service.
 ## 2. Streamlit Web Application
-Clone the repository.
-Install required dependencies:
+- Clone the repository.
+- Install required dependencies:
 pip install -r requirements.txt
-Run the application:
+- Run the application:
 streamlit run app.py
-Access the app locally and explore the features.
+- Access the app locally and explore the features.
 
 # File Structure
 - data/: Contains the dataset used for analysis.
@@ -40,8 +40,8 @@ Access the app locally and explore the features.
 - README.md: Project documentation.
 
 # Future Enhancements
-Integration with live data sources for real-time updates.
-Advanced predictive models for GDP and sectoral growth trends.
+- Integration with live data sources for real-time updates.
+- Advanced predictive models for GDP and sectoral growth trends.
 
 # Contact
 For queries, feedback, or collaborations:
