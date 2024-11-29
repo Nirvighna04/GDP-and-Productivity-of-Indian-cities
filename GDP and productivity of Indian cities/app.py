@@ -397,12 +397,12 @@ else:
         message = st.text_area("Message")
         if st.button("Submit Feedback"):
             
-            smtp_server = "smtp.office365.com"
-            smtp_port = 587
-            smtp_user = "support@aptpath.in"
-            smtp_pass = "kjydtmsbmbqtnydk"
-            sender_email = "support@aptpath.in"
-            receiver_email = "nirvighnadatar04@gmail.com"
+            smtp_server = "SERVER_MAIL_ID"
+            smtp_port = "PORT_NO"
+            smtp_user = "USER_ID"
+            smtp_pass = "YOUR_SMTP_PASS"
+            sender_email = "your_sender_email"
+            receiver_email = "your_receiver_email"
 
             if not subject or not message:
                 st.warning("Please fill in both subject and message.")
